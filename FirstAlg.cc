@@ -7,8 +7,8 @@ FirstAlg::FirstAlg(const std::string& name)
     : AlgBase(name),
       m_count(0)
 {
-    declProp("TheValue", m_value = 1);
-    declProp("Message",  m_msg);
+   // declProp("TheValue", m_value = 1);
+   // declProp("Message",  m_msg);
 }
 
 bool FirstAlg::initialize()
